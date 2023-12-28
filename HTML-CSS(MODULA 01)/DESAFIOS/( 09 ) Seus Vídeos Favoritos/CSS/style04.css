@@ -1,0 +1,40 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para os títulos h1 */
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para parágrafos */
+  p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para as divisões (div) */
+  div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  /* Estilos para âncoras (links) */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Estilizar link quando estiver em hover */
+  a:hover {
+    text-decoration: underline;
+  }
+  

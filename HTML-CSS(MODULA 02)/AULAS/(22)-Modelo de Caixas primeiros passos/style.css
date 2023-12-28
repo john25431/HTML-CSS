@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(63, 59, 59);
+    color: whitesmoke;
+    
+}
+
+div:hover>h {
+    background-color: rgb(177, 24, 24);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+span {
+    background-color: rgb(2, 1, 1);
+}
+.pa>span {
+    color: rgb(243, 10, 10);
+}
+
+div>ul {
+    color: rgb(63, 59, 59);
+}
+
+.lista:hover {
+    background-color: rgb(201, 148, 148);
+    width: 400px;
+}
+
+.home {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 100px;
+    
+}

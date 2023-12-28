@@ -1,0 +1,111 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');       
+
+body {
+    background-color: #A9F8FB;
+    
+}
+
+header  {
+    background-color: #3772FF;
+    box-shadow: 0px 0px 4px 0px black;
+    font-size: 3em;
+    text-align: center;
+    height: 300px;
+    width: 800px;
+    border-radius: 5px;
+    
+
+    padding: 3px 10px 2px 10px;
+
+    margin: -7px auto 15px auto;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    margin: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #E0D3DE;
+    box-shadow: 0px 0px 4px 0px black;
+    height: 500px;
+    width: 600px;
+    border-radius: 7px;
+
+    padding: 10px;
+
+    margin: 10px auto 10px auto;
+}
+
+main > #noticias > article > h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+main > #noticias > article > p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+article > aside > p {
+    background-color: #ffc75770;
+    width: 300px;
+
+    padding: 5px;
+
+    margin: 10px auto 10px auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 230px;
+
+    padding: 1px;
+
+    margin: 0px auto 0px auto;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+@media screen and (min-width: 300px)  {
+    header {
+        float: none;
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 300px)  {
+    main {
+        float: none;
+        text-align: center;
+        height: 100%;
+        width: 90%;
+        
+    }
+}

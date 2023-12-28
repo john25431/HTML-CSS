@@ -1,0 +1,27 @@
+No arquivo .html:
+
+	<h2 class="basico">HTML básico</h2>
+
+No arquivo .css:
+
+	.basico {
+		color: #3c805e;
+	}
+
+  - Obs: não usar h2 antes do #
+
+Regra W3C: usar o mesmo id apenas uma vez, no mesmo documento html;
+
+<span>	->	apenas seleciona um trecho do texto;
+
+	<span class="basico">dolor sit amet</span>
+
+Pode usar mais de uma class na mesma tag (separadas sem vírgula):
+
+	<h2 class="avancado destaque">CSS avançado</h2>
+
+Pode usar id e class juntos na mesma tag:
+
+	<h1 id="principal" class="destaque">Criando Sites com HTML e CSS</h1>
+
+       -> Na ordem de prioridade, a class vem antes do id.

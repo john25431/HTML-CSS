@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+         /*
+            Tipos de format
+            - opentype (otf)
+            -truetype  (ttf)
+            -embadded-opentype
+            -truetype- (Apple Advenced Typography)
+            -svg
+        */
+        @font-face {
+            font-family: batman;
+            src: url(fontes/batmfa__.ttf) format('truetype');
+            font: normal;
+            font-style: normal;
+        }
+
+        * {
+            height: auto;
+        }
+
+        body {
+            background-image: linear-gradient(to bottom left,#110102 15%,#B34D0D,#F1B533,#FAECC7 );
+            background-attachment: fixed;
+            font-family: batman;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+
+        }
+
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            text-align: justify;
+            text-indent: 2em;
+            color: rgba(255, 255, 255, 0.767);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tìtulo</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus minima officia sequi tenetur eligendi omnis sed necessitatibus unde? Eos et temporibus doloremque rem nisi esse autem eveniet deleniti veritatis! Nesciunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit explicabo quam amet molestiae sapiente illum, ut fugit facere numquam commodi voluptatem, qui ab odit non a ullam. Autem, atque repellat.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque doloremque aperiam explicabo eum illo rerum laboriosam at, ut soluta sunt blanditiis tempora velit saepe aliquam adipisci quisquam est, similique praesentium.</p>
+    <br>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quidem suscipit aliquid molestiae reprehenderit quasi id sunt! Voluptas officiis vel est beatae et corrupti cumque quas, quia alias tempore expedita.</p>
+</body>
+</html>

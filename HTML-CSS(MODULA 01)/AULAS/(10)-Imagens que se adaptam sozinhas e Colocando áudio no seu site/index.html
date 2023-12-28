@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgba(129, 124, 124, 0.767);
+        }
+        mark{
+            background-color: blue;
+        }
+    </style>
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinãmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <abbr title="Batman da Serie Animada">
+        <picture>
+            <source media="(max-width: 700px)" srcset="IMAGENSPARAOSITE/batman-p.png" type="image/png">
+            <source media="(max-width: 900px)" srcset="IMAGENSPARAOSITE/batman-m.png" type="image/png">
+            <img src="IMAGENSPARAOSITE/batman-g.png" alt="Imagem Flexivel">
+        </picture>
+    </abbr>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="MIDIA/SnapInsta.io - I'm Batman. (128 kbps).mp3" controls autoplay></audio>
+    <p>Caso queira abixar o audio esta aqui<a href="MIDIA/SnapInsta.io - I'm Batman. (128 kbps).mp3" download="MIDIA/SnapInsta.io - I'm Batman. (128 kbps).mp3">🦇 </a></p>
+    <p>Caso também queira Abaixar a imagem logo a cima clique ➡️ <a href="IMAGENSPARAOSITE/batman-p.png" download="batman-p.png"><strong>aqui</strong></a> ⬅️</p>
+</body>
+</html>

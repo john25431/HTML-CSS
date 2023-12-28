@@ -1,0 +1,7 @@
+Tipos de formant() 
+
+               - opentype (otf)
+               - truetype (ttf)
+               - embeddead-opentype
+               - truetype-aat (Apple Advanced Typography)
+               -svg

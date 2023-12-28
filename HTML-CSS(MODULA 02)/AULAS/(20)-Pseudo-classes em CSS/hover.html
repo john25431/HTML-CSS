@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste hover</title>
+    <style>
+        body {
+            background-color: rgba(80, 79, 67, 0.952);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+
+        div>p {
+            display: none;
+            font-size: 2em;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: black;
+            width: 300px;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        div:hover {
+            color: rgb(87, 179, 240);
+        }
+
+        .img:hover {
+            color: red;
+        }
+        .img > img {
+            display: none;
+        }
+
+        .img:hover > img {
+            display: block;
+            height: 300px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <div>
+        Passe o mouse aqui para ver o Texto escondido
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+
+    <h1>Agoara com imagem</h1>
+
+    <div class="img">
+        Passe o mouse aqui para ver a imagem
+
+        <img src="midia/Batman-PNG-Image-File.png" alt="">
+    </div>
+</body>
+</html>

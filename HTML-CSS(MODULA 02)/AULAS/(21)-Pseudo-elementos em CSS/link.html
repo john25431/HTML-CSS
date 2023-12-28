@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS  
+
+          # = id
+          . = class
+          : = pseudo-class
+          :: = pseudo-element
+          > = clildren
+
+        */
+
+        body {
+            background-color: #D1CCDC;
+        }
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+
+        a {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: none;
+            color: #3c9eff;
+        }
+
+
+        a:visited {
+            color: rgb(14, 12, 11);
+        }
+
+        a:hover {
+            color: #3c9eff;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+
+        .especial {
+            background-color: rgba(255, 0, 0, 0.219);
+            
+        }
+
+        .especial::before {
+            content: '→';
+            color: white;
+            
+        }
+
+        .especial::after {
+            content: '←';
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+       <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" class="especial">Repositório GitHUb</a></li>
+        <br>
+       <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank">Canal do YouTube</a></li>
+        <br>
+       <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+ 
+</body>
+</html>
