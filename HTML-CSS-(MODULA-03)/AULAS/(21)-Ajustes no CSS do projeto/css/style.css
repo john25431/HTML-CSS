@@ -1,0 +1,8 @@
+@charset "UTF8";
+
+
+section > pre {
+    white-space: pre-line;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+}
